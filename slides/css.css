@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    opacity: 0;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.container img.active{
+    opacity: 1;
+}
+h2{
+    POSITION: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #03A9F4;
+    padding: 34px;
+    border-radius: 22px;
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+}
+#control{
+    max-width: 100%;
+    position: absolute;
+    width: 90%;
+    top: 90%;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#control .prevButton,
+#control .nextButton{
+    flex-basis: 20%;
+    font-size: 33px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 31px;
+}
+.prevButton,
+.nextButton{
+    background: #03a9f4;
+    cursor: pointer;
+}
+.prevButton.soso,
+.nextButton.soso{
+    cursor: no-drop;
+    background-color: #0372a6;
+}
+.lists{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list-ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+#list-ul li{
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    background: beige;
+    border-radius: 50%;
+    color: #03a9f4;
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#list-ul li.active{
+    background-color : #03A9F4;
+    color: #fff;
+}

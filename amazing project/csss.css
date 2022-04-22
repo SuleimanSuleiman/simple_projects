@@ -1,0 +1,123 @@
+body{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.dark{
+    --bg-color: #1e1e1e; 
+    background-color: var(--bg-color);
+}
+.changeBg{
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 28px;
+    background: gray;
+    padding: 3px;
+    border-radius: 50%;
+    fill: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.changeBg .a,
+.changeBg .b{
+    position: absolute;
+    pointer-events: none;
+    fill: chartreuse;
+    width: 31px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 821px;
+    margin: auto;
+}
+.parent .all{
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.box{
+    height: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    pointer-events: none;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.one{
+    background-image: url('public/1.jpg');
+}
+.two{
+    background-image: url('public/2.jpg');
+}
+.three{
+    background-image: url('public/3.jpg');
+}
+.cart{
+    position: absolute;
+    top: 75%;
+    left: 7px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cart .icon{
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9px;
+}
+.cart .one{
+    color: #7b9b20;
+}
+.cart .two{
+    color: yellow;
+}
+.cart .three{
+    color: skyblue;
+}
+.cart h3{
+    color: #fff;
+    font-weight: bold;
+}
+.cart p{
+    color: #fff;
+    font-size: 18px;
+}

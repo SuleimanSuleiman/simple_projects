@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 600px;
+    margin: 10px auto;
+}
+.get-repos{
+    display: flex;
+    padding: 12px 24px;
+    background-color: #eeee;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+.get-repos .in{
+    flex-basis: 90%;
+    position: relative;
+}
+.get-repos input{
+    color: red;
+    font-size: 22px;
+    padding: 8px 20px;
+    border: 0;
+    height: 54px;
+}
+.get-repos input:focus{
+    outline: none;
+}
+.get-repos .in::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 55%;
+    background: #fff;
+    width: 41%;
+    transform: skewX(-30deg);
+    height: 100%;
+    z-index: 1;
+}
+.get-repos .git-bitton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    background: #cacaca;
+    cursor: pointer;
+    transition: all 0.4s;
+    /*box-shadow: 2px 2px 2px #333;*/
+    transform: translateX(-150px) skewX(-30deg);
+    opacity: 0.5;
+    transition:all 0.4s ;
+    position: relative;
+    -webkit-transition:all 0.4s ;
+    -moz-transition:all 0.4s ;
+    -ms-transition:all 0.4s ;
+    -o-transition:all 0.4s ;
+}
+.get-repos .git-bitton:hover{
+    background-color: #adadad;
+}
+.get-repos .git-bitton span{
+    position: relative;
+}
+.show-data{
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    margin-top: 22px;
+    
+}
+.cont-div{
+    display: flex;
+}
+.cont-div:not(:last-child){
+    margin-bottom: 22px;
+}
+.cont-div .repo-name{
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+.cont-div .text{
+    flex-basis: 30%;
+    DISPLAY: FLEX;
+    justify-content: space-evenly;
+}
+.cont-div .text .div-starts{
+    background: #FF5722;
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.cont-div .text .div-visit{
+    background: #2196F3;
+    border-radius: 32px;
+    padding: 8px 20px;
+}
+.cont-div .text .div-visit a{
+    text-decoration: none;
+    color: #fff;
+}

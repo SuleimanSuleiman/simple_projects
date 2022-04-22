@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1114px;
+    margin: 26px auto;
+    background-color: #E4E4E4;
+    padding: 28px 21px;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.container .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.container input{
+    width: 588px;
+    padding: 19px;
+    font-size: 30px;
+    background: #fff;
+    color: #707070;
+    border-radius: 19px ;
+    -webkit-border-radius: 19px ;
+    -moz-border-radius: 19px ;
+    -ms-border-radius: 19px ;
+    -o-border-radius: 19px ;
+    border: 1px solid #fff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.container input:focus{
+    outline: none;
+    border: 1px solid #009688;
+}
+.container .buttons{
+    display: flex;
+    width: 461px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .buttons span{
+    color: #fff;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    border: none;
+    width: 103px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.container .buttons span:first-of-type{
+    background-color: #009688;
+}
+.container .buttons span:nth-child(2){
+    background-color: #FF369A;
+}
+.container .buttons span:nth-child(3){
+    background-color: #FF5B5B;
+}
+.container .buttons span:nth-child(4){
+    background-color: #1CFF6F;
+}
+.results{
+    background-color: #fff;
+    padding: 19px;
+    margin-top: 19px;
+    border: 1px solid #eee;
+    text-align: center;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+.results span span{
+    font-weight: bold;
+    color: #009688;
+}
+.results .key{
+    color: #FF369A;
+}
+.results .value{
+    color: #FF369A;
+}
+.mainspan{
+    display: block;
+    background: #F8D8D8;
+    padding: 22px;
+    border-radius: 19px;
+}
+.mainspan:not(:last-child){
+    margin-bottom: 24px;
+}
+*::selection{
+    background-color: #20efd2;
+    color: #000000;
+}
+.removeall{
+    position: absolute;
+    bottom: 9px;
+    left: 90%;
+    background: #ff5b5b;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 19px;
+    cursor: pointer;
+
+}

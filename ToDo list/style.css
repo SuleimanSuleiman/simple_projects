@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --padding-left: 40px;
+    --padding-right: 40px;
+    --rad-color: #FC3535;
+    --main-color: #D2D2D2;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.container{
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+    padding-top: 22px;
+}
+header{
+    width: 900px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    margin: 22px auto;
+}
+header input{
+    flex-basis: 33%;
+    color: var(--rad-color);
+    background-color: #F8F8F8;
+    border: 0;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    font-size: 21px;
+    padding-left: 33px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    pointer-events: none;
+}
+header input.open{
+    flex-basis: 100%;
+    pointer-events:all;
+}
+header input:focus{
+    outline: none;
+}
+header input::placeholder{
+    opacity: 1;
+    transition: opacity .4s;
+    -webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -ms-transition: opacity .4s;
+    -o-transition: opacity .4s;
+}
+header input:focus::placeholder{
+    opacity: 0;
+}
+header span{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 70px;
+    height: 70px;
+    background-color: #D2D2D2;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+header span.open{
+    left: 92.5%;
+}
+header span::after{
+    content: '+';
+    font-size: 48px;
+    color: #fff;
+}
+header span .add{
+    font-size: 21px;
+    position: absolute;
+    opacity: 0;
+    left: -61px;
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 33px;
+    color: #797979;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    pointer-events: none;
+}
+header .open .add{
+    opacity: 1;
+    pointer-events: all;
+}
+.boxs{
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+    display: block;
+    padding-top: 38px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.boxs .box-task{
+    width: 100%;
+    height: 70px;
+    margin: 18px auto;
+    background-color: #dadadafc;
+    color: black;
+    border: 0;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 19px 48px;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxs .box-task .text{
+    cursor: pointer;
+}
+.boxs .box-task .text.finished{
+    text-decoration: line-through;
+}
+.boxs .box-task span{
+    width: 133px;
+    height: 50px;
+    background-color: var(--rad-color);
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    cursor: pointer;
+}
+footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 95%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+footer .number-of-completed,
+footer .number-of-tasks{
+    background-color: var(--rad-color);
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+footer .number-of-completed{
+    background-color: #6065FF;
+}
+.hoverOnElemet{
+    position: absolute;
+    top: 50%;
+    left: 113%;
+    transform: translate(-100%,-50%);
+    -webkit-transform: translate(-100%,-50%);
+    -moz-transform: translate(-100%,-50%);
+    -ms-transform: translate(-100%,-50%);
+    -o-transform: translate(-100%,-50%);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(167, 167, 167, 0.4);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border-radius: 40px 0 0 40px;
+}
+.hoverOnElemet.open{
+    left: 100%;
+}
