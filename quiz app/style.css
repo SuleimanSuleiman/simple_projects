@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1060px;
+    padding: 10px;
+    margin: auto auto 60px auto;
+    background-color: #D6D6D6;
+    border-radius: 38px;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    -ms-border-radius: 38px;
+    -o-border-radius: 38px;
+    position: relative;
+    padding-left: 47px;
+    margin-top: 40px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 24px;
+}
+.container header{
+    display: flex;
+    width: 1020px;
+    margin: 4px auto 17px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header .typeQuestion{
+    margin-left: 34px;
+}
+.container header .oclock,
+footer .theskip{
+    margin-right: 19px;
+}
+.container header .typeQuestion span,
+.container header .oclock span{
+    color: #de0000;
+    
+}
+.container .theQuestion{
+    padding: 16px;
+    font-size: 30px;
+    padding-left: 30px;
+    color: #707070;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 98%;
+    margin: 20px auto;
+    background: #fff;
+    font-weight: bold;
+    
+}
+.container .theQuestion .numberQuestion{
+    color: #de0000;
+}
+.container .the-anwers{
+    margin-top: 30px;
+}
+.container .the-anwers section{
+    width: 95%;
+    margin: 25px auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .the-anwers section input{
+    margin-right: 20px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.container .the-anwers section input:checked + label{
+    color:#de0000;
+}
+.container .the-anwers section label{
+    color: #707070;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.container .the-anwers section label::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 4px solid #de0000;
+}
+.container .the-anwers section input:checked + label::after,
+.container .the-anwers section input:hover + label::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -41px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background-color: #de0000;
+}
+.container .the-anwers section input:hover + label::after{
+    opacity: .3;
+}
+.container .the-anwers section input:checked:hover + label::after{
+    opacity: 1;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+footer .theskip{
+    color: #fff;
+    background-color: #FF5656;
+    cursor: pointer;
+}
+footer .submit{
+    background-color: aqua;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.container .bullets{
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 70%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.container .bullets span{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #de0000;
+    border-radius: 50%;
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+/* .container .bullets span.open{
+    background-color: #de0000;
+} */
