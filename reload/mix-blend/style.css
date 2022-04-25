@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    background-color: rgb(43, 43, 43);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent span{
+        color: #fff;
+        font-size: 31px;
+        letter-spacing: 5px;
+        width: fit-content;
+        position: relative;
+}
+.parent span::after{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    mix-blend-mode: difference;
+    left: 0;
+    background: white;
+    animation: reload 3s linear infinite;
+    -webkit-animation: reload 3s ease-in-out infinite;
+}
+
+@keyframes reload{
+    0%{
+        left: 0
+    }50%{
+        left: calc(100% - 50px);
+    }100%{
+        left: 0;
+    }
+}
