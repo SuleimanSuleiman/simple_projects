@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+}
+.container .spans{
+    position: absolute;
+    left: 90%;
+    width: 40px;
+    height: 40px;
+}
+.container .spans span{
+    width: 100%;
+    height: calc(54% / 3);
+    background-color: #333;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.container .spans span:first-of-type{
+    position: absolute;
+    top: 4px;
+    transform: translate(0%,-10%);
+    -webkit-transform: translate(0%,-10%);
+    -moz-transform: translate(0%,-10%);
+    -ms-transform: translate(0%,-10%);
+    -o-transform: translate(0%,-10%);
+}
+.container .spans.x span:first-of-type{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%) rotate(45deg);
+    -webkit-transform: translate(0%,-50%) rotate(45deg);
+    -moz-transform: translate(0%,-50%) rotate(45deg);
+    -ms-transform: translate(0%,-50%) rotate(45deg);
+    -o-transform: translate(0%,-50%) rotate(45deg);
+}
+.container .spans span:nth-child(2){
+    position: absolute;
+    top: 50%;
+    transform:translate(0%,-50%);
+    -webkit-transform:translate(0%,-50%);
+    -moz-transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+    -o-transform:translate(0%,-50%);
+}
+.container .spans.x span:nth-child(2){
+    opacity: 0;
+}
+.container .spans span:last-of-type{
+    position: absolute;
+    top: 76%;
+    transform: translate(0%,-10%);
+    -webkit-transform: translate(0%,-10%);
+    -moz-transform: translate(0%,-10%);
+    -ms-transform: translate(0%,-10%);
+    -o-transform: translate(0%,-10%);
+}
+.container .spans.x span:last-of-type{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%) rotate(-45deg);
+    -webkit-transform: translate(0%,-50%) rotate(-45deg);
+    -moz-transform: translate(0%,-50%) rotate(-45deg);
+    -ms-transform: translate(0%,-50%) rotate(-45deg);
+    -o-transform: translate(0%,-50%) rotate(-45deg);
+}
