@@ -1,0 +1,1458 @@
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#123), to(#333));
+  background-image: linear-gradient(#123, #333);
+}
+
+body .snow {
+  width: var(--size);
+  height: var(--size);
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+}
+
+.snow:nth-child(1) {
+  left: 28vw;
+}
+
+.snow:nth-child(1) {
+  --size: 0.4vw;
+  --left-st: 39vw;
+  --left-end: -4vw;
+  -webkit-animation: move 10s linear infinite;
+          animation: move 10s linear infinite;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.snow:nth-child(2) {
+  left: 94vw;
+}
+
+.snow:nth-child(2) {
+  --size: 0.4vw;
+  --left-st: 34vw;
+  --left-end: 16vw;
+  -webkit-animation: move 12s linear infinite;
+          animation: move 12s linear infinite;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.snow:nth-child(3) {
+  left: 2vw;
+}
+
+.snow:nth-child(3) {
+  --size: 0.2vw;
+  --left-st: -5vw;
+  --left-end: 1vw;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(4) {
+  left: 80vw;
+}
+
+.snow:nth-child(4) {
+  --size: 0.8vw;
+  --left-st: -4vw;
+  --left-end: 8vw;
+  -webkit-animation: move 25s linear infinite;
+          animation: move 25s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(5) {
+  left: 93vw;
+}
+
+.snow:nth-child(5) {
+  --size: 1vw;
+  --left-st: 38vw;
+  --left-end: 2vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.snow:nth-child(6) {
+  left: 39vw;
+}
+
+.snow:nth-child(6) {
+  --size: 0.6vw;
+  --left-st: 26vw;
+  --left-end: 5vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.snow:nth-child(7) {
+  left: 19vw;
+}
+
+.snow:nth-child(7) {
+  --size: 0.6vw;
+  --left-st: 35vw;
+  --left-end: 28vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+.snow:nth-child(8) {
+  left: 74vw;
+}
+
+.snow:nth-child(8) {
+  --size: 0.4vw;
+  --left-st: -2vw;
+  --left-end: 8vw;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(9) {
+  left: 66vw;
+}
+
+.snow:nth-child(9) {
+  --size: 1vw;
+  --left-st: 36vw;
+  --left-end: 9vw;
+  -webkit-animation: move 23s linear infinite;
+          animation: move 23s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(10) {
+  left: 66vw;
+}
+
+.snow:nth-child(10) {
+  --size: 0.4vw;
+  --left-st: 12vw;
+  --left-end: 18vw;
+  -webkit-animation: move 16s linear infinite;
+          animation: move 16s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(11) {
+  left: 8vw;
+}
+
+.snow:nth-child(11) {
+  --size: 0.6vw;
+  --left-st: -2vw;
+  --left-end: -2vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.snow:nth-child(12) {
+  left: 90vw;
+}
+
+.snow:nth-child(12) {
+  --size: 0.2vw;
+  --left-st: -4vw;
+  --left-end: 15vw;
+  -webkit-animation: move 25s linear infinite;
+          animation: move 25s linear infinite;
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+}
+
+.snow:nth-child(13) {
+  left: 72vw;
+}
+
+.snow:nth-child(13) {
+  --size: 1vw;
+  --left-st: 39vw;
+  --left-end: 5vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(14) {
+  left: 11vw;
+}
+
+.snow:nth-child(14) {
+  --size: 0.8vw;
+  --left-st: 37vw;
+  --left-end: 6vw;
+  -webkit-animation: move 18s linear infinite;
+          animation: move 18s linear infinite;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.snow:nth-child(15) {
+  left: 28vw;
+}
+
+.snow:nth-child(15) {
+  --size: 0.8vw;
+  --left-st: 22vw;
+  --left-end: 40vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(16) {
+  left: 38vw;
+}
+
+.snow:nth-child(16) {
+  --size: 0.6vw;
+  --left-st: 31vw;
+  --left-end: 30vw;
+  -webkit-animation: move 22s linear infinite;
+          animation: move 22s linear infinite;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.snow:nth-child(17) {
+  left: 30vw;
+}
+
+.snow:nth-child(17) {
+  --size: 0.8vw;
+  --left-st: 16vw;
+  --left-end: 1vw;
+  -webkit-animation: move 19s linear infinite;
+          animation: move 19s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(18) {
+  left: 75vw;
+}
+
+.snow:nth-child(18) {
+  --size: 0.8vw;
+  --left-st: -1vw;
+  --left-end: -5vw;
+  -webkit-animation: move 11s linear infinite;
+          animation: move 11s linear infinite;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.snow:nth-child(19) {
+  left: 55vw;
+}
+
+.snow:nth-child(19) {
+  --size: 0.4vw;
+  --left-st: 28vw;
+  --left-end: 0vw;
+  -webkit-animation: move 12s linear infinite;
+          animation: move 12s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(20) {
+  left: 15vw;
+}
+
+.snow:nth-child(20) {
+  --size: 0.6vw;
+  --left-st: 10vw;
+  --left-end: -1vw;
+  -webkit-animation: move 22s linear infinite;
+          animation: move 22s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.snow:nth-child(21) {
+  left: 58vw;
+}
+
+.snow:nth-child(21) {
+  --size: 1vw;
+  --left-st: 28vw;
+  --left-end: 4vw;
+  -webkit-animation: move 23s linear infinite;
+          animation: move 23s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.snow:nth-child(22) {
+  left: 74vw;
+}
+
+.snow:nth-child(22) {
+  --size: 0.2vw;
+  --left-st: 30vw;
+  --left-end: -1vw;
+  -webkit-animation: move 11s linear infinite;
+          animation: move 11s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.snow:nth-child(23) {
+  left: 40vw;
+}
+
+.snow:nth-child(23) {
+  --size: 0.8vw;
+  --left-st: 32vw;
+  --left-end: -6vw;
+  -webkit-animation: move 16s linear infinite;
+          animation: move 16s linear infinite;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.snow:nth-child(24) {
+  left: 87vw;
+}
+
+.snow:nth-child(24) {
+  --size: 0.8vw;
+  --left-st: 34vw;
+  --left-end: 12vw;
+  -webkit-animation: move 14s linear infinite;
+          animation: move 14s linear infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.snow:nth-child(25) {
+  left: 70vw;
+}
+
+.snow:nth-child(25) {
+  --size: 0.6vw;
+  --left-st: 22vw;
+  --left-end: 37vw;
+  -webkit-animation: move 9s linear infinite;
+          animation: move 9s linear infinite;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.snow:nth-child(26) {
+  left: 25vw;
+}
+
+.snow:nth-child(26) {
+  --size: 0.4vw;
+  --left-st: 40vw;
+  --left-end: 29vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+.snow:nth-child(27) {
+  left: 34vw;
+}
+
+.snow:nth-child(27) {
+  --size: 0.4vw;
+  --left-st: 17vw;
+  --left-end: -6vw;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.snow:nth-child(28) {
+  left: 98vw;
+}
+
+.snow:nth-child(28) {
+  --size: 0.8vw;
+  --left-st: 39vw;
+  --left-end: 28vw;
+  -webkit-animation: move 19s linear infinite;
+          animation: move 19s linear infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.snow:nth-child(29) {
+  left: 26vw;
+}
+
+.snow:nth-child(29) {
+  --size: 0.6vw;
+  --left-st: 33vw;
+  --left-end: 9vw;
+  -webkit-animation: move 22s linear infinite;
+          animation: move 22s linear infinite;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.snow:nth-child(30) {
+  left: 74vw;
+}
+
+.snow:nth-child(30) {
+  --size: 0.4vw;
+  --left-st: 0vw;
+  --left-end: 8vw;
+  -webkit-animation: move 14s linear infinite;
+          animation: move 14s linear infinite;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.snow:nth-child(31) {
+  left: 82vw;
+}
+
+.snow:nth-child(31) {
+  --size: 0.8vw;
+  --left-st: -8vw;
+  --left-end: 16vw;
+  -webkit-animation: move 12s linear infinite;
+          animation: move 12s linear infinite;
+  -webkit-animation-delay: 17s;
+          animation-delay: 17s;
+}
+
+.snow:nth-child(32) {
+  left: 25vw;
+}
+
+.snow:nth-child(32) {
+  --size: 0.8vw;
+  --left-st: 25vw;
+  --left-end: 4vw;
+  -webkit-animation: move 10s linear infinite;
+          animation: move 10s linear infinite;
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+
+.snow:nth-child(33) {
+  left: 97vw;
+}
+
+.snow:nth-child(33) {
+  --size: 1vw;
+  --left-st: 14vw;
+  --left-end: -7vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+}
+
+.snow:nth-child(34) {
+  left: 97vw;
+}
+
+.snow:nth-child(34) {
+  --size: 0.4vw;
+  --left-st: 8vw;
+  --left-end: 1vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 17s;
+          animation-delay: 17s;
+}
+
+.snow:nth-child(35) {
+  left: 65vw;
+}
+
+.snow:nth-child(35) {
+  --size: 1vw;
+  --left-st: -9vw;
+  --left-end: 30vw;
+  -webkit-animation: move 25s linear infinite;
+          animation: move 25s linear infinite;
+  -webkit-animation-delay: 19s;
+          animation-delay: 19s;
+}
+
+.snow:nth-child(36) {
+  left: 66vw;
+}
+
+.snow:nth-child(36) {
+  --size: 0.4vw;
+  --left-st: 14vw;
+  --left-end: 21vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(37) {
+  left: 7vw;
+}
+
+.snow:nth-child(37) {
+  --size: 1vw;
+  --left-st: 1vw;
+  --left-end: 29vw;
+  -webkit-animation: move 21s linear infinite;
+          animation: move 21s linear infinite;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.snow:nth-child(38) {
+  left: 49vw;
+}
+
+.snow:nth-child(38) {
+  --size: 0.2vw;
+  --left-st: 0vw;
+  --left-end: 31vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.snow:nth-child(39) {
+  left: 33vw;
+}
+
+.snow:nth-child(39) {
+  --size: 0.2vw;
+  --left-st: 12vw;
+  --left-end: 40vw;
+  -webkit-animation: move 17s linear infinite;
+          animation: move 17s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.snow:nth-child(40) {
+  left: 86vw;
+}
+
+.snow:nth-child(40) {
+  --size: 1vw;
+  --left-st: 3vw;
+  --left-end: 24vw;
+  -webkit-animation: move 16s linear infinite;
+          animation: move 16s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(41) {
+  left: 73vw;
+}
+
+.snow:nth-child(41) {
+  --size: 0.4vw;
+  --left-st: 28vw;
+  --left-end: 30vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.snow:nth-child(42) {
+  left: 89vw;
+}
+
+.snow:nth-child(42) {
+  --size: 0.8vw;
+  --left-st: -2vw;
+  --left-end: 14vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.snow:nth-child(43) {
+  left: 29vw;
+}
+
+.snow:nth-child(43) {
+  --size: 0.6vw;
+  --left-st: 35vw;
+  --left-end: -5vw;
+  -webkit-animation: move 21s linear infinite;
+          animation: move 21s linear infinite;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.snow:nth-child(44) {
+  left: 14vw;
+}
+
+.snow:nth-child(44) {
+  --size: 0.6vw;
+  --left-st: -8vw;
+  --left-end: -2vw;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.snow:nth-child(45) {
+  left: 95vw;
+}
+
+.snow:nth-child(45) {
+  --size: 1vw;
+  --left-st: 21vw;
+  --left-end: 16vw;
+  -webkit-animation: move 10s linear infinite;
+          animation: move 10s linear infinite;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.snow:nth-child(46) {
+  left: 20vw;
+}
+
+.snow:nth-child(46) {
+  --size: 1vw;
+  --left-st: 5vw;
+  --left-end: 38vw;
+  -webkit-animation: move 24s linear infinite;
+          animation: move 24s linear infinite;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+.snow:nth-child(47) {
+  left: 39vw;
+}
+
+.snow:nth-child(47) {
+  --size: 0.8vw;
+  --left-st: 1vw;
+  --left-end: -7vw;
+  -webkit-animation: move 9s linear infinite;
+          animation: move 9s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(48) {
+  left: 74vw;
+}
+
+.snow:nth-child(48) {
+  --size: 0.6vw;
+  --left-st: 12vw;
+  --left-end: 35vw;
+  -webkit-animation: move 6s linear infinite;
+          animation: move 6s linear infinite;
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+
+.snow:nth-child(49) {
+  left: 79vw;
+}
+
+.snow:nth-child(49) {
+  --size: 0.4vw;
+  --left-st: 28vw;
+  --left-end: 37vw;
+  -webkit-animation: move 11s linear infinite;
+          animation: move 11s linear infinite;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.snow:nth-child(50) {
+  left: 82vw;
+}
+
+.snow:nth-child(50) {
+  --size: 0.2vw;
+  --left-st: -4vw;
+  --left-end: 35vw;
+  -webkit-animation: move 21s linear infinite;
+          animation: move 21s linear infinite;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.snow:nth-child(51) {
+  left: 14vw;
+}
+
+.snow:nth-child(51) {
+  --size: 1vw;
+  --left-st: 27vw;
+  --left-end: -9vw;
+  -webkit-animation: move 12s linear infinite;
+          animation: move 12s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(52) {
+  left: 1vw;
+}
+
+.snow:nth-child(52) {
+  --size: 0.2vw;
+  --left-st: 22vw;
+  --left-end: 28vw;
+  -webkit-animation: move 9s linear infinite;
+          animation: move 9s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(53) {
+  left: 46vw;
+}
+
+.snow:nth-child(53) {
+  --size: 0.6vw;
+  --left-st: 18vw;
+  --left-end: 13vw;
+  -webkit-animation: move 11s linear infinite;
+          animation: move 11s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.snow:nth-child(54) {
+  left: 32vw;
+}
+
+.snow:nth-child(54) {
+  --size: 0.6vw;
+  --left-st: 20vw;
+  --left-end: 32vw;
+  -webkit-animation: move 22s linear infinite;
+          animation: move 22s linear infinite;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.snow:nth-child(55) {
+  left: 24vw;
+}
+
+.snow:nth-child(55) {
+  --size: 0.2vw;
+  --left-st: 5vw;
+  --left-end: 21vw;
+  -webkit-animation: move 11s linear infinite;
+          animation: move 11s linear infinite;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+.snow:nth-child(56) {
+  left: 8vw;
+}
+
+.snow:nth-child(56) {
+  --size: 0.2vw;
+  --left-st: 40vw;
+  --left-end: 7vw;
+  -webkit-animation: move 7s linear infinite;
+          animation: move 7s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(57) {
+  left: 56vw;
+}
+
+.snow:nth-child(57) {
+  --size: 0.8vw;
+  --left-st: 24vw;
+  --left-end: 39vw;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.snow:nth-child(58) {
+  left: 98vw;
+}
+
+.snow:nth-child(58) {
+  --size: 0.2vw;
+  --left-st: -4vw;
+  --left-end: 23vw;
+  -webkit-animation: move 18s linear infinite;
+          animation: move 18s linear infinite;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.snow:nth-child(59) {
+  left: 24vw;
+}
+
+.snow:nth-child(59) {
+  --size: 0.4vw;
+  --left-st: 11vw;
+  --left-end: 30vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(60) {
+  left: 35vw;
+}
+
+.snow:nth-child(60) {
+  --size: 0.6vw;
+  --left-st: 20vw;
+  --left-end: -3vw;
+  -webkit-animation: move 12s linear infinite;
+          animation: move 12s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(61) {
+  left: 73vw;
+}
+
+.snow:nth-child(61) {
+  --size: 0.2vw;
+  --left-st: 13vw;
+  --left-end: -7vw;
+  -webkit-animation: move 25s linear infinite;
+          animation: move 25s linear infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.snow:nth-child(62) {
+  left: 81vw;
+}
+
+.snow:nth-child(62) {
+  --size: 0.8vw;
+  --left-st: 29vw;
+  --left-end: 5vw;
+  -webkit-animation: move 22s linear infinite;
+          animation: move 22s linear infinite;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.snow:nth-child(63) {
+  left: 6vw;
+}
+
+.snow:nth-child(63) {
+  --size: 0.4vw;
+  --left-st: 20vw;
+  --left-end: 11vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(64) {
+  left: 59vw;
+}
+
+.snow:nth-child(64) {
+  --size: 0.4vw;
+  --left-st: 7vw;
+  --left-end: -4vw;
+  -webkit-animation: move 21s linear infinite;
+          animation: move 21s linear infinite;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.snow:nth-child(65) {
+  left: 47vw;
+}
+
+.snow:nth-child(65) {
+  --size: 0.8vw;
+  --left-st: 37vw;
+  --left-end: 23vw;
+  -webkit-animation: move 17s linear infinite;
+          animation: move 17s linear infinite;
+  -webkit-animation-delay: 19s;
+          animation-delay: 19s;
+}
+
+.snow:nth-child(66) {
+  left: 96vw;
+}
+
+.snow:nth-child(66) {
+  --size: 0.2vw;
+  --left-st: 6vw;
+  --left-end: 40vw;
+  -webkit-animation: move 19s linear infinite;
+          animation: move 19s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.snow:nth-child(67) {
+  left: 12vw;
+}
+
+.snow:nth-child(67) {
+  --size: 0.4vw;
+  --left-st: 27vw;
+  --left-end: 33vw;
+  -webkit-animation: move 18s linear infinite;
+          animation: move 18s linear infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.snow:nth-child(68) {
+  left: 9vw;
+}
+
+.snow:nth-child(68) {
+  --size: 0.2vw;
+  --left-st: 3vw;
+  --left-end: 35vw;
+  -webkit-animation: move 25s linear infinite;
+          animation: move 25s linear infinite;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.snow:nth-child(69) {
+  left: 62vw;
+}
+
+.snow:nth-child(69) {
+  --size: 0.6vw;
+  --left-st: 34vw;
+  --left-end: 14vw;
+  -webkit-animation: move 19s linear infinite;
+          animation: move 19s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(70) {
+  left: 75vw;
+}
+
+.snow:nth-child(70) {
+  --size: 0.2vw;
+  --left-st: 19vw;
+  --left-end: 23vw;
+  -webkit-animation: move 24s linear infinite;
+          animation: move 24s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.snow:nth-child(71) {
+  left: 53vw;
+}
+
+.snow:nth-child(71) {
+  --size: 0.2vw;
+  --left-st: 7vw;
+  --left-end: 12vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 17s;
+          animation-delay: 17s;
+}
+
+.snow:nth-child(72) {
+  left: 47vw;
+}
+
+.snow:nth-child(72) {
+  --size: 0.2vw;
+  --left-st: 5vw;
+  --left-end: 8vw;
+  -webkit-animation: move 16s linear infinite;
+          animation: move 16s linear infinite;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.snow:nth-child(73) {
+  left: 62vw;
+}
+
+.snow:nth-child(73) {
+  --size: 0.2vw;
+  --left-st: 0vw;
+  --left-end: -1vw;
+  -webkit-animation: move 10s linear infinite;
+          animation: move 10s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(74) {
+  left: 52vw;
+}
+
+.snow:nth-child(74) {
+  --size: 0.4vw;
+  --left-st: -2vw;
+  --left-end: 28vw;
+  -webkit-animation: move 16s linear infinite;
+          animation: move 16s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(75) {
+  left: 52vw;
+}
+
+.snow:nth-child(75) {
+  --size: 1vw;
+  --left-st: 32vw;
+  --left-end: -8vw;
+  -webkit-animation: move 7s linear infinite;
+          animation: move 7s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(76) {
+  left: 26vw;
+}
+
+.snow:nth-child(76) {
+  --size: 0.2vw;
+  --left-st: -2vw;
+  --left-end: 19vw;
+  -webkit-animation: move 24s linear infinite;
+          animation: move 24s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(77) {
+  left: 54vw;
+}
+
+.snow:nth-child(77) {
+  --size: 0.4vw;
+  --left-st: 32vw;
+  --left-end: 38vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.snow:nth-child(78) {
+  left: 8vw;
+}
+
+.snow:nth-child(78) {
+  --size: 0.2vw;
+  --left-st: 12vw;
+  --left-end: 29vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.snow:nth-child(79) {
+  left: 68vw;
+}
+
+.snow:nth-child(79) {
+  --size: 0.2vw;
+  --left-st: -1vw;
+  --left-end: 7vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.snow:nth-child(80) {
+  left: 54vw;
+}
+
+.snow:nth-child(80) {
+  --size: 0.2vw;
+  --left-st: 32vw;
+  --left-end: 33vw;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.snow:nth-child(81) {
+  left: 63vw;
+}
+
+.snow:nth-child(81) {
+  --size: 0.2vw;
+  --left-st: -9vw;
+  --left-end: -7vw;
+  -webkit-animation: move 18s linear infinite;
+          animation: move 18s linear infinite;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.snow:nth-child(82) {
+  left: 17vw;
+}
+
+.snow:nth-child(82) {
+  --size: 0.8vw;
+  --left-st: 27vw;
+  --left-end: 17vw;
+  -webkit-animation: move 18s linear infinite;
+          animation: move 18s linear infinite;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.snow:nth-child(83) {
+  left: 50vw;
+}
+
+.snow:nth-child(83) {
+  --size: 1vw;
+  --left-st: 33vw;
+  --left-end: 40vw;
+  -webkit-animation: move 14s linear infinite;
+          animation: move 14s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(84) {
+  left: 54vw;
+}
+
+.snow:nth-child(84) {
+  --size: 0.4vw;
+  --left-st: -2vw;
+  --left-end: 34vw;
+  -webkit-animation: move 16s linear infinite;
+          animation: move 16s linear infinite;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.snow:nth-child(85) {
+  left: 82vw;
+}
+
+.snow:nth-child(85) {
+  --size: 0.2vw;
+  --left-st: 14vw;
+  --left-end: 5vw;
+  -webkit-animation: move 9s linear infinite;
+          animation: move 9s linear infinite;
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+
+.snow:nth-child(86) {
+  left: 33vw;
+}
+
+.snow:nth-child(86) {
+  --size: 0.6vw;
+  --left-st: 31vw;
+  --left-end: -2vw;
+  -webkit-animation: move 11s linear infinite;
+          animation: move 11s linear infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.snow:nth-child(87) {
+  left: 78vw;
+}
+
+.snow:nth-child(87) {
+  --size: 0.6vw;
+  --left-st: 37vw;
+  --left-end: 31vw;
+  -webkit-animation: move 12s linear infinite;
+          animation: move 12s linear infinite;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+.snow:nth-child(88) {
+  left: 7vw;
+}
+
+.snow:nth-child(88) {
+  --size: 0.8vw;
+  --left-st: 0vw;
+  --left-end: 13vw;
+  -webkit-animation: move 9s linear infinite;
+          animation: move 9s linear infinite;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.snow:nth-child(89) {
+  left: 98vw;
+}
+
+.snow:nth-child(89) {
+  --size: 0.2vw;
+  --left-st: 11vw;
+  --left-end: 13vw;
+  -webkit-animation: move 24s linear infinite;
+          animation: move 24s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.snow:nth-child(90) {
+  left: 18vw;
+}
+
+.snow:nth-child(90) {
+  --size: 0.4vw;
+  --left-st: 19vw;
+  --left-end: -9vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.snow:nth-child(91) {
+  left: 10vw;
+}
+
+.snow:nth-child(91) {
+  --size: 0.6vw;
+  --left-st: 12vw;
+  --left-end: 9vw;
+  -webkit-animation: move 17s linear infinite;
+          animation: move 17s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(92) {
+  left: 90vw;
+}
+
+.snow:nth-child(92) {
+  --size: 1vw;
+  --left-st: 16vw;
+  --left-end: -4vw;
+  -webkit-animation: move 19s linear infinite;
+          animation: move 19s linear infinite;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.snow:nth-child(93) {
+  left: 47vw;
+}
+
+.snow:nth-child(93) {
+  --size: 0.4vw;
+  --left-st: 13vw;
+  --left-end: -3vw;
+  -webkit-animation: move 23s linear infinite;
+          animation: move 23s linear infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.snow:nth-child(94) {
+  left: 46vw;
+}
+
+.snow:nth-child(94) {
+  --size: 0.4vw;
+  --left-st: 16vw;
+  --left-end: 27vw;
+  -webkit-animation: move 14s linear infinite;
+          animation: move 14s linear infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.snow:nth-child(95) {
+  left: 1vw;
+}
+
+.snow:nth-child(95) {
+  --size: 0.6vw;
+  --left-st: 34vw;
+  --left-end: -2vw;
+  -webkit-animation: move 9s linear infinite;
+          animation: move 9s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.snow:nth-child(96) {
+  left: 13vw;
+}
+
+.snow:nth-child(96) {
+  --size: 0.4vw;
+  --left-st: 22vw;
+  --left-end: 8vw;
+  -webkit-animation: move 22s linear infinite;
+          animation: move 22s linear infinite;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.snow:nth-child(97) {
+  left: 86vw;
+}
+
+.snow:nth-child(97) {
+  --size: 0.2vw;
+  --left-st: 32vw;
+  --left-end: 29vw;
+  -webkit-animation: move 19s linear infinite;
+          animation: move 19s linear infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.snow:nth-child(98) {
+  left: 32vw;
+}
+
+.snow:nth-child(98) {
+  --size: 0.2vw;
+  --left-st: 38vw;
+  --left-end: 12vw;
+  -webkit-animation: move 20s linear infinite;
+          animation: move 20s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.snow:nth-child(99) {
+  left: 2vw;
+}
+
+.snow:nth-child(99) {
+  --size: 0.8vw;
+  --left-st: 31vw;
+  --left-end: -7vw;
+  -webkit-animation: move 13s linear infinite;
+          animation: move 13s linear infinite;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.snow:nth-child(100) {
+  left: 20vw;
+}
+
+.snow:nth-child(100) {
+  --size: 0.2vw;
+  --left-st: -2vw;
+  --left-end: -6vw;
+  -webkit-animation: move 15s linear infinite;
+          animation: move 15s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+@-webkit-keyframes move {
+  0% {
+    transform: translate3d(var(--left-st), 0, 0);
+    -webkit-transform: translate3d(var(--left-st), 0, 0);
+    -moz-transform: translate3d(var(--left-st), 0, 0);
+    -ms-transform: translate3d(var(--left-st), 0, 0);
+    -o-transform: translate3d(var(--left-st), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), 110vh, 0);
+    -webkit-transform: translate3d(var(--left-end), 110vh, 0);
+    -moz-transform: translate3d(var(--left-end), 110vh, 0);
+    -ms-transform: translate3d(var(--left-end), 110vh, 0);
+    -o-transform: translate3d(var(--left-end), 110vh, 0);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate3d(var(--left-st), 0, 0);
+    -webkit-transform: translate3d(var(--left-st), 0, 0);
+    -moz-transform: translate3d(var(--left-st), 0, 0);
+    -ms-transform: translate3d(var(--left-st), 0, 0);
+    -o-transform: translate3d(var(--left-st), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), 110vh, 0);
+    -webkit-transform: translate3d(var(--left-end), 110vh, 0);
+    -moz-transform: translate3d(var(--left-end), 110vh, 0);
+    -ms-transform: translate3d(var(--left-end), 110vh, 0);
+    -o-transform: translate3d(var(--left-end), 110vh, 0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
