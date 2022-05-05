@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="/bootstrap.min.css")
+        script(src="/bootstrap.min.js" defer) 
+    body 
+        .container 
+            h1 URL Shrinker 
+            form(action=`/shortUrls` method='POST' class='my-4 form-inline')
+                label(for="fullUrl")
+                input(type="url" name='fullUrl' required id="fullUrl" placeholder="Url" class=' form-control mr-2') 
+                button(type="submit" class='btn btn-success my-4') Shrink 
+            table(class='table table-resposive table-striped')
+                thead 
+                    tr 
+                        th Full Url 
+                        th Short Url 
+                        th Clicks 
+                tbody 
+                    each vul in urlshort
+                        tr 
+                            td: a(href=`${vul.full}`) #{vul.full}
+                            td: a(href=`${vul.short}`) #{vul.short}
+                            td #{vul.clicks}
